@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+.caixa-superior {
+   background-image: url('img/dev_contabil.png');
+   background-size: cover;
+   height: 98vh;
+}
+.cabecalho {
+    padding-top: 38px;
+    padding-left: 35px;
+}
+.titulo-cabecalho {
+    font-size: 35px;
+    color: #FFFFFF;
+    display: inline;
+}
+
+.link-cabecalho{
+    color: #FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+    display: inline;
+    margin-left: 30px;
+    cursor: pointer; 
+}
+
+h1 {
+    font-size: 58px;
+    color: #FFFFFF;
+    position: relative;
+    top: 280px;
+    margin-left: 65px;
+}
+
+form {
+    opacity: 0;
+    transition: 1s;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 400px;
+    height: 520px;
+    float: right;
+    padding: 30px;
+    margin-right: 30px;
+    position: relative;
+    bottom: 100px;
+}
+
+.mostrar-formulario{
+    opacity: 1;
+}
+
+.titulo-formulario {
+  color: #252B42;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+label{
+   color: #252B42;
+   font-size: 14px;
+}
+
+input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #E5E5E5;
+    background: #F9F9F9;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    outline: none;
+}
+
+textarea{
+    display: block;
+    margin-bottom: 10px;
+    height: 100px;
+    width: 340px;
+    background: #F9F9F9;
+    border: 1px solid #E6E6E6;
+    padding-left: 15px;
+    outline: none;
+    resize: none;
+}
+
+
+button{
+    background: #40BB15;
+    color: #FFFFFF;
+    text-align: center;
+    width: 300px;
+    height: 45px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.caixa-central {
+   display: flex;
+   margin-top: 60px;
+   justify-content: space-evenly;
+   margin-bottom: 50px;
+}
+#titulo-servicos {
+    font-size: 40px;
+    color: #252B42;
+    margin-top: 14px;
+    text-align: center;
+}
+.titulo-card{
+   color: #FFFFFF;
+   background: #219653;
+   height: 70px;
+   text-align: center;
+   font-family: 'Montserrat';
+   padding: 20px;
+   border-radius: 10px 10px 0px 0px ;
+}
+.card {
+    width: 300px;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #EEF6FF;
+
+}
+
+ul {
+    color: #737373;
+    padding: 20px;
+    font-size: 14px;
+    border: 1px ;
+}
+
+li {
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.caixa-sobre{
+    background-color: #020425;
+    color: #FFFFFF;
+    padding-top: 20px;
+    height: 500px;
+ 
+}
+
+#titulo-sobre {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.paragrafo-inferior p{
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 5px  50px  50px  50px;
+
+}
